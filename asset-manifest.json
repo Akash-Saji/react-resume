@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Akash-Saji/react-resume/static/css/main.4ca8cf98.css",
-    "main.js": "/Akash-Saji/react-resume/static/js/main.f04e7572.js",
-    "static/js/787.dc9ee2bf.chunk.js": "/Akash-Saji/react-resume/static/js/787.dc9ee2bf.chunk.js",
-    "index.html": "/Akash-Saji/react-resume/index.html",
-    "main.4ca8cf98.css.map": "/Akash-Saji/react-resume/static/css/main.4ca8cf98.css.map",
-    "main.f04e7572.js.map": "/Akash-Saji/react-resume/static/js/main.f04e7572.js.map",
-    "787.dc9ee2bf.chunk.js.map": "/Akash-Saji/react-resume/static/js/787.dc9ee2bf.chunk.js.map"
+    "main.css": "/react-resume/static/css/main.4ca8cf98.css",
+    "main.js": "/react-resume/static/js/main.9aed6c1a.js",
+    "static/js/787.dc9ee2bf.chunk.js": "/react-resume/static/js/787.dc9ee2bf.chunk.js",
+    "index.html": "/react-resume/index.html",
+    "main.4ca8cf98.css.map": "/react-resume/static/css/main.4ca8cf98.css.map",
+    "main.9aed6c1a.js.map": "/react-resume/static/js/main.9aed6c1a.js.map",
+    "787.dc9ee2bf.chunk.js.map": "/react-resume/static/js/787.dc9ee2bf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4ca8cf98.css",
-    "static/js/main.f04e7572.js"
+    "static/js/main.9aed6c1a.js"
   ]
 }
