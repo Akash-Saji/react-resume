@@ -1,9 +1,10 @@
-
 import   { Example }    from './Popup';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFutbol ,faDog ,faMusic,faBook ,faCar } from '@fortawesome/free-solid-svg-icons'
 
 export function Details(){
     return (
-        <>
+        <> 
 <div className="wrapper">
   <div className="intro">
     <div className="profile">
@@ -37,7 +38,7 @@ problem-solving abilities. Committed to delivering high-quality code and excepti
         <i className="fas fa-paper-plane"></i>
         <span>akashsajixyz@gmail.com</span>
       </div>
-      <div className="info-section link">
+      <div className="info-section link"> 
         <i className="fab fa-facebook"></i>
         <a target="_blank" rel="author" href="https://www.facebook.com/profile.php?id=100006277752355">
           <span></span>
@@ -88,7 +89,6 @@ Full-stack Developer at Betasquirrel
         <div className="timeline-block" >
           <h1>
 Project Intern at  Betasquirrel</h1>
-          <p>National Chiao Tung University, Taiwan</p>
           <time>
 Jan 2023 - Mar 2023</time>
         </div>
@@ -132,7 +132,7 @@ Jan 2023 - Mar 2023</time>
             <div className="sb-skeleton">
               <div className="skillbar4" ></div>
             </div>
-          </li>
+          </li> 
           <li>
             <span>ReactJS</span>
             <div className="sb-skeleton">
@@ -183,24 +183,24 @@ Jan 2023 - Mar 2023</time>
         <div className="outer-frame">
           <ul className="favor-list">
             <li>
-              <i className="fas fa-gamepad"></i>
+            <FontAwesomeIcon icon={faFutbol} style={{width:"30px", height:"30px"}} className='p-1' />
               <span>Game</span>
             </li>
             <li>
-              <i className="fas fa-paw"></i>
+              <FontAwesomeIcon icon={faDog} style={{width:"30px", height:"30px"}} className='p-1'  />
               <span>Pet</span>
             </li>
             <li>
-              <i className="far fa-headphones-alt"></i>
+              <FontAwesomeIcon icon={faMusic} style={{width:"30px", height:"30px"}} className='p-1'  />
               <span>Music</span>
             </li>
             <li>
-              <i className="fas fa-book-spells"></i>
+              <FontAwesomeIcon icon={faBook} style={{width:"30px", height:"30px"}} className='p-1'  />
               <span>Self-learning</span>
             </li>
             <li>
-              <i className="fas fa-user-edit"></i>
-              <span>Blog</span>
+            <FontAwesomeIcon icon={faCar} style={{width:"30px", height:"30px"}} className='p-1'  />
+              <span>Driving</span>
             </li>
           </ul>
         </div>

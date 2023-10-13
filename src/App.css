@@ -1,18 +1,15 @@
 .App {
   text-align: center;
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -259,8 +256,8 @@ body {
 	width: 3px;
 	height: 100%;
 	background-color: var(--timeline-circle-theme);
-	left: -1px;
-	top: 13px;
+	left: -4px;
+	top: 10px;
 }
 .timeline-block:hover h1 {
 	color: var(--color-tiffany);
@@ -417,7 +414,6 @@ body {
 		height: 100px;
 	}
 }
-
 @media (max-width: 768px) {
 	html {
 		font-size: 80%;
@@ -437,3 +433,77 @@ body {
 		font-size: 70%;
 	}
 } 
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+	  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+	  sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+  }
+  code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+	  monospace;
+  }
+  .skillbar1 {
+	width: 610px;
+	height: 5px;
+	background-color: rgb(70, 130, 191)}
+  .skillbar2 {
+	width: 570px;
+	height: 5px;
+	background-color: rgb(70, 130, 191)}
+  .skillbar3 {
+	width: 580px;
+	height: 5px;
+	background-color: rgb(70, 130, 191)}
+  .skillbar4 {
+	width: 550px;
+	height: 5px;
+	background-color: rgb(70, 130, 191)}
+  .skillbar5 {
+	width: 580px;
+	height: 5px;
+	background-color: rgb(70, 130, 191)}
+  .skillbar6 {
+	width: 610px;
+	height: 5px;
+	background-color: rgb(70, 130, 191)
+   
+  }
+  @media (max-width: 1500px) {
+	  .skillbar2 {
+		
+		width: calc(var(--pgbar-length) - 70px);
+	  }
+	} 
+	@media (max-width: 1500px) {
+	  .skillbar1 {
+		
+		width: calc(var(--pgbar-length) - 50px);
+	  }
+	} 
+	@media (max-width: 1500px) {
+	  .skillbar3 {
+		
+		width: calc(var(--pgbar-length) - 65px);
+	  }
+	} 
+	@media (max-width: 1500px) {
+	  .skillbar4 {
+		
+		width: calc(var(--pgbar-length) - 80px);
+	  }
+	} 
+	@media (max-width: 1500px) {
+	  .skillbar6 {
+		
+		width: calc(var(--pgbar-length) - 50px);
+	  }
+	} 
+	@media (max-width: 1500px) {
+	  .skillbar5 {
+		
+		width: calc(var(--pgbar-length) - 70px);
+	  }
+	} 

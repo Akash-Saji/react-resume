@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
@@ -9,7 +8,7 @@ export function Example() {
     const handleShow = () => setShow(true);
     return (
       <>
-        <Button variant="primary" onClick={handleShow}>
+        <Button style={{backgroundColor:" rgb(70, 130, 191)"}} onClick={handleShow}>
         Hire Me
         </Button>
         <Modal
