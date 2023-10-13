@@ -20,11 +20,9 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
 .App-link {
   color: #61dafb;
 }
-
 :root {
 	--color-gray-light-1: #f8f8f8;
 	--color-gray-light-2: #e9e9e9;
@@ -36,31 +34,23 @@
 	--color-tiffany: #00a6a6;
 	--profile-theme: #4682bf;
 	--timeline-circle-theme: #14253e;
-	
 	--pgbar-length: 100%;
-
 	--MATH-PI: 3.1415px;
 	--percent: 100;
 }
-
 html {
 	font-size: 100%;
     font-family: 'PT Sans', sans-serif;
-
-
 }
-
 * {
 	box-sizing: border-box;
 }
-
 body {
 	margin: 0;
 	padding: 3rem 1rem;
 	min-height: 100vh;
 	background-color: var(--color-gray-light-3);
 }
-
 .wrapper {
 	margin: 0 auto;
 	max-width: 70rem;
@@ -68,7 +58,6 @@ body {
 	display: flex;
 	box-shadow: 0px 0px 15px 4px #b3b3b3;
 }
-
 .intro {
 	flex: 0 0 250px;
 	background-color: var(--color-gray-light-1);
@@ -135,12 +124,10 @@ body {
 	width: 20px;
 	height: 20px;
 }
-
 .link a {
 	text-decoration: none;
 	color: inherit;
 }
-
 .link span::after {
 	position: absolute;
 	content: '';
@@ -150,19 +137,15 @@ body {
 	height: 2px;
 	background-color: var(--profile-theme);
 	transition: width 0.3s;
-	/*transition-timing-function: cubic-bezier(.64,.51,.16,.86);*/
 	transition-timing-function: cubic-bezier(.92,.57,.33,1.02);
 	transform: translate(-50%, 0);
 }
-
 .link span:hover {
 	color: var(--profile-theme);
 }
 .link span:hover::after {
 	width: 100%;
 }
-
-/* Detail section overall setting*/
 .detail {
 	flex: 1 0 0;
 	background-color: white;
@@ -217,8 +200,6 @@ body {
 .detail-section:hover .title-icon + span {
 	letter-spacing: 1.5px;
 }
-
-/* time line block in education section */
 .timeline-block {
 	position: relative;
 	padding-left: 30px;
@@ -265,8 +246,6 @@ body {
 .timeline-block:hover::before {
 	animation: circle 1.2s infinite;
 }
-
-/* Programming skills section */
 .pg-list, .tool-list, .favor-list {
 	padding: 0;
 	list-style: none;
@@ -343,7 +322,6 @@ body {
 	font-size: 1rem;
 	transform: translate(-50%, -50%);
 }
-/* Interests Section */
 .outer-frame {
 	border: 1px solid var(--color-gray-dark-3);
 	border-radius: 5px;
@@ -379,7 +357,6 @@ body {
 .favor-list > li > span {
 	letter-spacing: 1px;
 }
-
 @keyframes circle {
   0% {
     box-shadow: 0 0 0 0px rgba(51, 52, 57, 1);
@@ -388,7 +365,6 @@ body {
     box-shadow: 0 0 0 6px rgba(51, 52, 57, 0);
   }
 }
-
 @media (max-width: 1024px) {
 	html {
 		font-size: 90%;
