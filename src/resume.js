@@ -61,9 +61,6 @@ problem-solving abilities. Committed to delivering high-quality code and excepti
       </div>
       <div className="info-section link">
         <i className="fab fa-medium"></i>
-        <a target="_blank" rel="author" href="https://akash-saji.github.io/betasquirrel-task/">
-          <span>Tasks</span>
-        </a>
       </div>
       <Example/>
     </div>
@@ -84,7 +81,7 @@ Full-stack Developer at Betasquirrel
           <p>Apprenticeship</p>
           <time>Apr 2023 - Present</time>
           <p>Skills</p>
-          <p>Skills: Git · Agile Methodologies · Vue.js · REST APIs · Confluence · Cascading Style Sheets (CSS) · AJAX · JSON · Figma (Software) · Postman API · GitHub · Laravel · PHP · HTML5 · Bootstrap (Framework)</p>
+          <p>Skills: Cypress · MongoDB · Express.js · React.js · Node.js · AngularJS · Git · Agile Methodologies · Hoppscotch · Jira · Vue.js · REST APIs · Confluence · Cascading Style Sheets (CSS) · AJAX · JSON · Figma (Software) · Postman API · GitHub · Laravel · PHP · HTML5 · Bootstrap (Framework)</p>
         </div>
         <div className="timeline-block" >
           <h1>
@@ -145,6 +142,18 @@ Jan 2023 - Mar 2023</time>
               <div className="skillbar6" ></div>
             </div>
           </li>
+          <li>
+            <span>ExpressJS</span>
+            <div className="sb-skeleton">
+              <div className="skillbar6" ></div>
+            </div>
+          </li>
+          <li>
+            <span>Laravel</span>
+            <div className="sb-skeleton">
+              <div className="skillbar4" ></div>
+            </div>
+          </li>
         </ul>
       </div>
       <div className="detail-section pg-skill">
@@ -168,43 +177,15 @@ Jan 2023 - Mar 2023</time>
               <div className="skillbar1" ></div>
             </div>
           </li>
+          <li>
+            <span>Cypress</span>
+            <div className="sb-skeleton">
+              <div className="skillbar4" ></div>
+            </div>
+          </li>
         </ul>
       </div>
 </div>
-    </div>
-    <div className="detail-section interests">
-      <div className="detail-title">
-        <div className="title-icon">
-          <i className="fas fa-heart"></i>
-        </div>
-        <span>Interests</span>
-      </div>
-      <div className="detail-content">
-        <div className="outer-frame">
-          <ul className="favor-list">
-            <li>
-            <FontAwesomeIcon icon={faFutbol} style={{width:"30px", height:"30px"}} className='p-1' />
-              <span>Game</span>
-            </li>
-            <li>
-              <FontAwesomeIcon icon={faDog} style={{width:"30px", height:"30px"}} className='p-1'  />
-              <span>Pet</span>
-            </li>
-            <li>
-              <FontAwesomeIcon icon={faMusic} style={{width:"30px", height:"30px"}} className='p-1'  />
-              <span>Music</span>
-            </li>
-            <li>
-              <FontAwesomeIcon icon={faBook} style={{width:"30px", height:"30px"}} className='p-1'  />
-              <span>Self-learning</span>
-            </li>
-            <li>
-            <FontAwesomeIcon icon={faCar} style={{width:"30px", height:"30px"}} className='p-1'  />
-              <span>Driving</span>
-            </li>
-          </ul>
-        </div>
-      </div>
     </div>
   </div>
  </div></>       
